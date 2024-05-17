@@ -15,7 +15,7 @@ export class QuestWorldsActorCharacterSheet extends ActorSheet {
 
   /** @override */
   static get defaultOptions() {
-    return mergeObject(super.defaultOptions, {
+    return foundry.utils.mergeObject(super.defaultOptions, {
       classes: ["questworlds", "sheet", "actor"],
       template: "systems/questworlds/templates/actor/actor-sheet.html",
       width: 750,
@@ -280,7 +280,7 @@ export class QuestWorldsActorCharacterSheet extends ActorSheet {
     // Get the type of item to create.
     const type = header.dataset.type;
     // Grab any data associated with this control.
-    const data = duplicate(header.dataset);
+    const data = foundry.utils.duplicate(header.dataset);
     // Initialize a default name.
     const itemType = header.dataset?.variant == 'sidekick' ?
       game.settings.get('questworlds',"sidekickName") :
