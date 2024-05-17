@@ -55,7 +55,7 @@ export class ChatContest {
             if (!(context)) return; // not a contest chat card
             if (context?.closed) return;    // do nothing; the template took care of disabling the form
             const user = game.user;
-            const messageOwner = chatMessage.user.id;
+            const messageOwner = chatMessage.author.id;
 
             const HTML_waitingForPlayer = '<i>'+ game.i18n.localize('QUESTWORLDS.chatcontest.WaitingForPlayer') +'</i>';
             const HTML_waitingForGM = '<i>'+ game.i18n.localize('QUESTWORLDS.chatcontest.WaitingForGM') +'</i>';
@@ -276,7 +276,7 @@ function _processFormData(formData) {
     const assuredDefeat = RatingHelper.merge(runningTotal) <= 0;
 
     /* merge and return */
-    formData = mergeObject(formData,{
+    formData = foundry.utils.mergeObject(formData,{
         total: runningTotal,
         tactic: tactic,
         resistance: resistance,
@@ -308,8 +308,10 @@ async function _resolveRoll(chatMessage) {
         } else {        // no roll yet
 
             // make two new rolls: the character and the resistance
-            const pcRoll = new Roll('1d20').roll({async:false});
-            const resRoll = new Roll('1d20').roll({async:false});
+            let pcRoll = new Roll("1d20");
+            let resRoll = new Roll("1d20");
+            await pcRoll.evaluate();
+            await resRoll.evaluate();
             pcResult = pcRoll.total;
             resResult = resRoll.total;
 
@@ -489,7 +491,7 @@ function _getNewFormData(chatMessage,html) {
 
     const addedData = _getCurrentFormData(html);
 
-    const mergedData = mergeObject(oldFormData,addedData);
+    const mergedData = foundry.utils.mergeObject(oldFormData,addedData);
     return mergedData;
 }
 

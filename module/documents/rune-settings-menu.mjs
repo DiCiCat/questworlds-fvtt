@@ -7,7 +7,7 @@ export class RuneFontsSettingsMenuClass extends FormApplication {
     }
 
     static get defaultOptions() {
-        return mergeObject(super.defaultOptions, {
+        return foundry.utils.mergeObject(super.defaultOptions, {
             classes: ['form'],
             popOut: true,
             template: `systems/questworlds/templates/forms/rune-fonts-settings-menu.html`,
