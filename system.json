@@ -13,7 +13,7 @@
 	"compatibility": {
 		"minimum": 10,
 		"verified": "10.291",
-		"maximum": 10
+		"maximum": 12
 	  },	
 	"flags": {
 		"allowBugReporter": true
