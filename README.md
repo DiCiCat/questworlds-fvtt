@@ -3,6 +3,7 @@ You can use this manifest URL to install manually my patched version for Foundry
 [`https://github.com/DiCiCat/questworlds-fvtt/releases/latest/download/system.json`](https://github.com/DiCiCat/questworlds-fvtt/releases/latest/download/system.json)
 
 
+
 ****************** Original Readme from eggdropsoap ***************************
 # QuestWorlds FVTT (Unofficial)
 
