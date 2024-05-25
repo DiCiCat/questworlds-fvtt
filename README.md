@@ -1,3 +1,9 @@
+You can use this manifest URL to install manually my patched version for Foundry v12 :
+
+[`https://github.com/DiCiCat/questworlds-fvtt/releases/latest/download/system.json`](https://github.com/DiCiCat/questworlds-fvtt/releases/latest/download/system.json)
+
+
+****************** Original Readme from eggdropsoap ***************************
 # QuestWorlds FVTT (Unofficial)
 
 QuestWorlds-FVTT is an *unofficial* system module for Foundry VTT to support playing [_QuestWorlds_][qwsrd], the narrative RPG system from [Chaosium][chaosium].
@@ -21,13 +27,9 @@ This Foundry system module uses trademarks and/or copyrights owned by Chaosium I
 
 Installation is easy: search for `questworlds` in Foundry.
 
-You can use this manifest URL to install manually the original version from eggdropsoap (foundry v10):
+You can also use this manifest URL to install manually:
 
 [`https://github.com/eggdropsoap/questworlds-fvtt/releases/latest/download/system.json`](https://github.com/eggdropsoap/questworlds-fvtt/releases/latest/download/system.json)
-
-You can also use this manifest URL to install manually my patched version for Fundry v12 :
-
-[`https://github.com/DiCiCat/questworlds-fvtt/releases/latest/download/system.json`](https://github.com/DiCiCat/questworlds-fvtt/releases/latest/download/system.json)
 
 ## Features
 
