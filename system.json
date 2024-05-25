@@ -2,7 +2,7 @@
 	"name": "questworlds",
 	"title": "QuestWorlds (Unofficial)",
 	"description": "A Foundry VTT system to play QuestWorlds, the rules-lite storytelling RPG from Chaosium. Based on the rules in the QuestWorlds SRD.",
-	"version": "0.1.3",
+	"version": "0.1.4",
 	"authors": [{
 		"name": "eggdropsoap"
 	  }],
@@ -11,9 +11,9 @@
 	"changelog": "https://github.com/eggdropsoap/questworlds-fvtt/blob/master/CHANGELOG.md",
 	"bugs": "https://github.com/eggdropsoap/questworlds-fvtt/issues",
 	"compatibility": {
-		"minimum": 10,
-		"verified": "10.291",
-		"maximum": 12
+		"minimum": 12,
+		"verified": "12.322",
+		"maximum": 13
 	  },	
 	"flags": {
 		"allowBugReporter": true
