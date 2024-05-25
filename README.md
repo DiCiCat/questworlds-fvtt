@@ -25,6 +25,9 @@ You can also use this manifest URL to install manually:
 
 [`https://github.com/eggdropsoap/questworlds-fvtt/releases/latest/download/system.json`](https://github.com/eggdropsoap/questworlds-fvtt/releases/latest/download/system.json)
 
+You can use this manifest URL to install manually my patched version for Fundry v12
+[`https://github.com/DiCiCat/questworlds-fvtt/releases/latest/download/system.json`](https://github.com/DiCiCat/questworlds-fvtt/releases/latest/download/system.json)
+
 ## Features
 
 Since the QuestWorlds SRD itself is still in a state of flux, this implementation of a Foundry system module for QuestWorlds offers only the necessary features to play QuestWorlds in Foundry. The goals of the first release are:
