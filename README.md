@@ -21,11 +21,11 @@ This Foundry system module uses trademarks and/or copyrights owned by Chaosium I
 
 Installation is easy: search for `questworlds` in Foundry.
 
-You can also use this manifest URL to install manually:
+You can use this manifest URL to install manually the original version from eggdropsoap (foundry v10):
 
 [`https://github.com/eggdropsoap/questworlds-fvtt/releases/latest/download/system.json`](https://github.com/eggdropsoap/questworlds-fvtt/releases/latest/download/system.json)
 
-You can use this manifest URL to install manually my patched version for Fundry v12 :
+You can also use this manifest URL to install manually my patched version for Fundry v12 :
 
 [`https://github.com/DiCiCat/questworlds-fvtt/releases/latest/download/system.json`](https://github.com/DiCiCat/questworlds-fvtt/releases/latest/download/system.json)
 
