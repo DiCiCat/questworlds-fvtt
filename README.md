@@ -25,7 +25,8 @@ You can also use this manifest URL to install manually:
 
 [`https://github.com/eggdropsoap/questworlds-fvtt/releases/latest/download/system.json`](https://github.com/eggdropsoap/questworlds-fvtt/releases/latest/download/system.json)
 
-You can use this manifest URL to install manually my patched version for Fundry v12
+You can use this manifest URL to install manually my patched version for Fundry v12 :
+
 [`https://github.com/DiCiCat/questworlds-fvtt/releases/latest/download/system.json`](https://github.com/DiCiCat/questworlds-fvtt/releases/latest/download/system.json)
 
 ## Features
